@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About- XTREMEBOX</title>
+        <script src="https://kit.fontawesome.com/8c6f88e892.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <ul class="cont">
+      <a href="http://127.0.0.1:5501/index.html"><li style="font-family: 'Fjalla One', sans-serif; font-size:40px;" class="c"><span style="color:#f1552b">XTREME</span>BOX</li></a>
+      <li class="b"><a class="hover-line" href="http://127.0.0.1:5501/index.html">HOME</a></li>
+       <li class="b"><a class="hover-line" href="">TRAINERS</a></li>
+      <li class="b"><a class="hover-line"href="http://127.0.0.1:5501/index3.html">ENROLL</a></li>
+      <li class="b"> <a class="hover-line"href="http://127.0.0.1:5501/index2.html">ABOUT</a></li>
+       <li class="d"><input type="search" id="gsearch" name="gsearch"></li>
+    </ul>
+    <div class="abou">
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
+    <h1 class="h">ABOUT</h1>>
+    <p class="f">Our Boxing Professionals have decades of experience training professional fighters and conducting informative and fun classes for beginner to advanced members.  As an example, our head Boxing Instructor has ten years of fighting experience and earned six  Championship Titles in four weight divisions, and every Instructor at Victory makes sure our Members have a great time and learn skills that last a lifetime.     
+
+      Our Professional Coaching Staff is comprised of both men and women who teach all aspects of the Boxing game.  In addition to being a superior workout that will develop invaluable self-defense skills, our classes are the perfect combination of cardiovascular and muscular training.  Our Instructors will take you through their very own specialized workout which mostly includes "one on one" routines and combination drills with a partner,  but also includes stretching, skipping rope, shadow boxing, bag work, lower-body conditioning, and abdominal work.  Our Boxing Classes are great for beginners, who will learn valuable real-life self-defense and fighting skills, and also excellent for both intermediate and advanced students.  These classes require hand wraps and boxing gloves, which we loan "free of charge" to guests and new members. Bring a towel and dress to sweat!
+      
+      And if you want to bring those Boxing skills into the ring, we can train you to become an amateur or professional boxer in our "Boxing Team Practice" classes, which are included with your membership.  We are also skilled at choosing the right event and the right opponent for you.</p>
+    </div>
+    <div>
+      <img class="z" src="boxing_gloves.png" width="500px"height="600px">
+    </div>
+    <ul class="cont2">
+      <a href="http://127.0.0.1:5501/index.html"><li style="font-family: 'Fjalla One', sans-serif; font-size:40px;" class="c"><span style="color:#f1552b">XTREME</span>BOX</li></a>
+      <li><a href="#" class="fa fa-facebook"></a></li>
+      <li><a href="#" class="fa fa-twitter"></a></li>
+      <li><a href="#" class="fa fa-linkedin"></a></li>
+      <li><a href="#" class="fa fa-youtube"></a></li>
+      <li><a href="#" class="fa fa-instagram"></a></li>
+      </li>
+    
+    </ul>
+    
+  </body>
+</html>

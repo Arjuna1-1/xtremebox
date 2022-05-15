@@ -1,0 +1,242 @@
+body{ /*The background of whole website is black*/
+  background-color:#09090b;
+}
+@font-face{ /*Importing a .otf font file that is on the PC*/
+  font-family:"champ";
+  
+  src:url(champ.otf) format("opentype");
+}
+.cont{ /*The stationary top bar of the website*/
+  display:flex;
+  list-style:none;
+  justify-content:space-evenly;
+  align-items:center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top:3em;
+}
+
+.cont2{ /*The stationary bottom bar of the website*/
+  background-color: #2e2b2b;
+  display:flex;
+  list-style:none;
+  justify-content:space-evenly;
+  align-items:center;
+  margin-top:12em;
+  margin-right:1em;
+  height: 100px;
+  border-radius: 3%;
+}
+
+.b{ 
+  color:#f1552b;
+  margin-left:2em;
+}
+.hover-line:hover{
+  color:#f1552b;
+}
+.hover-line::after{
+  content:"";
+  display:block;
+  width:0;
+  height:3px;
+   color:#f1552b;
+  background-color:#f1552b;
+  transition:0.3s;
+  position:relative;
+  top:3px; 
+}
+.hover-line:hover::after{
+  width:100%;
+  transition:0.3s;
+  color:#f1552b;
+}
+input[type=search] {
+  width:120px;
+  color:#ffffff;
+  background-color: transparent;
+  text-align: center;
+ border: 2px solid #f1552b;
+ border-radius: 50px 50px 50px 50px;
+  
+}
+input:focus{
+    outline: none;
+}
+a{ /*Anchor*/
+  color:#ffffff;
+  text-decoration:none;
+}
+.c{ /*For title XTREMEBOX*/
+  color:#ffffff;
+  margin-right:2em;
+}
+img{
+  margin:0;
+  position:absolute;
+  top:90px;
+  left:500px;
+  z-index:-3;
+}
+.nex{ /*For div box of MUHAMMAD ALI'S...*/
+  position:relative;
+  top:10px;
+  display:flex;
+  flex-direction:column;
+  width:30em;
+  align-items:center;
+  margin-left:60px;
+  
+}
+h1{
+background: linear-gradient(#ffffff, #5b5b5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:"champ";
+  font-size:150px;
+  letter-spacing: 5px;
+  line-height: 90%;
+  margin-bottom:0;
+}
+
+P{ /*Paragraph <p> of ABOUT section*/
+  background: linear-gradient(#f7f7f7, #5b5b5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Archivo', sans-serif;
+  font-size:30px;
+  margin-bottom:0;
+  margin-top:0;
+  margin-right:30px;
+  letter-spacing: 2px;
+}
+.bar{ /*Glowing border of div box of KNOW MORE button */
+  width:188px;
+  height:50px;
+  text-align:center;
+  text-decoration: none;
+  margin-top:50px;
+  margin-right:240px;
+  border: 2px solid #f1552b;
+  background-color:transparent;
+ border-radius: 50px 50px 50px 50px;
+  cursor: pointer;
+  box-shadow: 0 0px 10px #f1552b;
+  
+}
+.tex{
+  
+   background: linear-gradient(#f7f7f7, #5b5b5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Archivo', sans-serif;
+  position:relative;
+  top:15px;
+  
+ 
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px rgb(6, 6, 6); 
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(68, 68, 68); 
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f1eeee; 
+}
+
+.z{
+  margin:0;
+  position:absolute;
+  top:200px;
+  left:400px;
+  opacity: 40%;
+}
+
+.h{
+  position: relative;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: -100px;
+}
+
+.abou{
+    position:relative;
+    width: 1000px;
+    text-align:center;
+    top: 100px;
+    left: 140px;
+    margin-bottom: 10%;
+}
+
+.f{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #2e2b2b;
+  color: white;
+}
+
+.fa-twitter {
+  background: #2e2b2b;
+  color: white;
+}
+
+.fa-linkdin {
+  background: #2e2b2b;
+  color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+  background: #2e2b2b;
+  color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+  background: #2e2b2b;
+  color: white;
+}
+
+.from{
+  margin: 50px auto;
+  height: 10%;
+  width: 50%;
+  border: 12px #f1552b;
+  font-weight: bolder;
+  background-color: #2e2b2b;
+  opacity: 50%;
+  border-radius: 10px;
+}
+
+.fromin{
+  color: white;
+}
+
+.pad{
+  padding: 2%;
+}
